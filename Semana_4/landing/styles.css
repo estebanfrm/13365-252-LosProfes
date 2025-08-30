@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    pading: 5px;
+}
+.container {
+    background: yellow;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    margin: 15px;
+}
+.main{
+    background: green;
+    padding: 335px;
+    margin: 15px;
+    text-align: center;
+    flex-wrap: space between;
+    float: right;
+}
+
+.nabar {
+    background: lightblue;
+    padding: 335px;
+    margin: 15px;
+    float: left;
+
+}
+
+.end {
+    background: blue;
+    padding: 50px;
+    margin: 15px;
+    text-align: center;
+}

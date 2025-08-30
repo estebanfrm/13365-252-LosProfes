@@ -1,0 +1,55 @@
+/*Estilos por clase
+.class {} */
+
+/*Estilos por id
+#id {} */
+
+/*Estilos por etiqueta
+etiqueta {} */
+
+/*Estilos por atributo
+[atributo="valor"] {} */
+
+/*Estilos en linea -No deseado
+<div style="color: blue; font-size: 14px;">Texto con estilos en linea </div> */
+
+/* Margin: Separacion con otros contenedores de la pagina*/
+/* Padding: Separacion interna dentro del contenedor*/
+body {
+    font-family: sans-serif;
+    margin: 20px; 
+    pading: 5px;
+}
+/*Grid Styling*/
+
+/*.container {
+    border: 2px dashed black;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}*/
+
+.container {
+    border: 2px dashed black;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*.container .items {
+    display: inline-block;
+    width: 100px;
+    height: 100px; 
+}*/
+
+.items {
+    background: lightblue;
+    border: 1px solid  blue;
+    padding: 5px;
+    margin: 15px;
+
+}
