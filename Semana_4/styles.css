@@ -1,28 +1,31 @@
 /*Estilos por clase
-.class {} */
+.class{}*/
 
-/*Estilos por id
+/*Estilos por ID
 #id {} */
 
 /*Estilos por etiqueta
-etiqueta {} */
+etiqueta {}*/
 
 /*Estilos por atributo
-[atributo="valor"] {} */
+[atributo="valor"]{}*/
 
-/*Estilos en linea -No deseado
-<div style="color: blue; font-size: 14px;">Texto con estilos en linea </div> */
+/*Estilo en linea
+<div style="color: blue; font-size: 14px;">Texto con estilos en linea</div>
+*/
 
-/* Margin: Separacion con otros contenedores de la pagina*/
-/* Padding: Separacion interna dentro del contenedor*/
-body {
+/*Margin: separacion con otros contenedores de la pagina*/
+/*Paddib: Separacion interna dentro del contenedor*/
+
+body{
     font-family: sans-serif;
-    margin: 20px; 
-    pading: 5px;
+    margin: 20px;
+    padding: 5px;
 }
-/*Grid Styling*/
 
-/*.container {
+/*grid styling*/
+/*.container{
+>>>>>>> 27697d2b775d87423407fbb1bbcc6d0fce68460d
     border: 2px dashed black;
     padding: 10px;
     margin-bottom: 30px;
@@ -31,6 +34,7 @@ body {
     gap: 10px;
 }*/
 
+<<<<<<< HEAD
 .container {
     border: 2px dashed black;
     padding: 10px;
@@ -51,5 +55,4 @@ body {
     border: 1px solid  blue;
     padding: 5px;
     margin: 15px;
-
 }
